@@ -340,14 +340,14 @@ if (!class_exists('vcInfoBox')) {
                             $percent .
                             "</span>
                             <span class=\"price discount\">" .
-                            $sale_price[0] .
-                            '<small>,' .
-                            ($sale_price[1] ? $sale_price[1] : '00') .
-                            " &#8380;</small></span>
-                        <span class=\"price\">" .
                             $regular_price[0] .
                             '<small>,' .
                             ($regular_price[1] ? $regular_price[1] : '00') .
+                            " &#8380;</small></span>
+                        <span class=\"price\">" .
+                            $sale_price[0] .
+                            '<small>,' .
+                            ($sale_price[1] ? $sale_price[1] : '00') .
                             " &#8380;</small></span>
                         ";
                     } else {

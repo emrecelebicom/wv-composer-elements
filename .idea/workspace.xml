@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8b196cd-5052-465f-a1f3-9db8ea7965d8" name="Default Changelist" comment="" />
+    <list default="true" id="a8b196cd-5052-465f-a1f3-9db8ea7965d8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmw-directory-element.php" beforeDir="false" afterPath="$PROJECT_DIR$/tmw-directory-element.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +12,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jaY9ie0laH3ydFYFcdNBFpwvxc" />
   <component name="ProjectViewState">
@@ -27,6 +33,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -40,7 +47,9 @@
       <workItem from="1604043520637" duration="4320000" />
       <workItem from="1604050952630" duration="7440000" />
       <workItem from="1604094344330" duration="1142000" />
-      <workItem from="1604134842488" duration="3850000" />
+      <workItem from="1604134842488" duration="4439000" />
+      <workItem from="1604142455578" duration="72000" />
+      <workItem from="1604144964058" duration="44000" />
     </task>
     <servers />
   </component>
