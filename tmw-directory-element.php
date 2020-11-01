@@ -318,6 +318,13 @@ if (!class_exists('vcInfoBox')) {
                         'medium'
                     );
 
+                    /* New Product */
+                    $news_days = 30;
+                    $created = strtotime( $product->get_date_created() );
+                    if ( ( time() - ( 60 * 60 * 24 * $news_days ) ) < $created ) {
+                        $new_product = "<div class=\"info\">".esc_html__( 'New', 'woocommerce' )."</div>";
+                    }
+
                     /* Product Price */
                     if (
                         !empty($product->get_regular_price()) and
@@ -389,7 +396,7 @@ if (!class_exists('vcInfoBox')) {
                             </div>
                         </div>
                     </a>
-                    <div class=\"info\">New</div>
+                    ".$new_product."
                     <div class=\"favorites\"><img src=\"ets/img/icons/red-favorites-icon.svg\" alt=\"\" width=\"20\"></div>
 
                 </div>
