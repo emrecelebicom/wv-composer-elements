@@ -256,8 +256,8 @@ if (!class_exists('vcInfoBox')) {
 
             $advert_img = wp_get_attachment_image_src($advert_image, 'large');
 
-            $selected_categories = explode(',', $selected_categories);
-            $exlude_categories = explode(',', $exlude_categories);
+            $selected_categories = $selected_categories ? explode(',', $selected_categories) : null;
+            $exlude_categories = $exlude_categories ? explode(',', $exlude_categories) : null;
 
             $params = [
                 'post_status' => 'publish',
@@ -340,6 +340,8 @@ if (!class_exists('vcInfoBox')) {
                             ($product->get_regular_price() -
                                 $product->get_sale_price()) /
                             ($product->get_regular_price() / 100);
+
+                        $percent = number_format($percent, 0, ',', ' ');
 
                         $price =
                             "
