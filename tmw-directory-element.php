@@ -381,11 +381,7 @@ if (!class_exists('vcInfoBox')) {
                     <a href=\"" .
                             esc_url(get_permalink()) .
                             "\">
-                        <div class=\"img-area\">
-                            <img src=\"" .
-                            $image .
-                            "\" alt=\"\">
-                        </div>
+                        <div class=\"img-area\">".$image."</div>
                         <div class=\"text-area\">
                             <span class=\"delivery free\">Free delivery</span>
                             <h3>" .
