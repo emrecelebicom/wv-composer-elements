@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8b196cd-5052-465f-a1f3-9db8ea7965d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elements/dropdown.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elements/elements.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elements/image.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elements/textarea.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elements/textbox.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/categories.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/dropdown-multiple.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/layout/layout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/products.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tmw-directory-element.php" beforeDir="false" afterPath="$PROJECT_DIR$/tmw-directory-element.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmw-directory.php" beforeDir="false" afterPath="$PROJECT_DIR$/tmw-directory.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +47,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/view/theme-1" />
+      <recent name="$PROJECT_DIR$/functions" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -52,11 +69,22 @@
       <workItem from="1604144964058" duration="116000" />
       <workItem from="1604248247876" duration="350000" />
       <workItem from="1604497861948" duration="2510000" />
-      <workItem from="1605216089886" duration="77000" />
+      <workItem from="1605216089886" duration="151000" />
+      <workItem from="1605216278404" duration="17000" />
+      <workItem from="1605277479193" duration="28637000" />
+      <workItem from="1605435923236" duration="469000" />
+      <workItem from="1605436584568" duration="2067000" />
+      <workItem from="1605466628635" duration="400000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="327" y="194" key="NewPhpClassDialog" timestamp="1605388344417">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="327" y="194" key="NewPhpClassDialog/0.23.1440.877@0.23.1440.877" timestamp="1605388344417" />
   </component>
 </project>
